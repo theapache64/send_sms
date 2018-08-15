@@ -26,7 +26,7 @@ rl.question('To : ', (nameOrMobile: any) => {
         //  Has multiple suggestion
         askSug(searchResult, 0);
       } else {
-        console.log(`To : ${searchResult[0].name} (${searchResult[0].mobile}}`);
+        console.log(`To : ${searchResult[0].name} (${searchResult[0].mobile})`);
         sendTo(searchResult[0].mobile);
       }
     } else {
